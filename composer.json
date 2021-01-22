@@ -19,7 +19,7 @@
         "Ezlogger\\": "src/Ezlogger/"
       },
       "files": [
-        "src/Ezlogger/EzLogger.php"
+        "src/Ezlogger/Ezlogger.php"
       ]
     }
   }
