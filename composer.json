@@ -3,9 +3,6 @@
     "description": "An Logger wich allows to developer get notified over multiple channels like email,webhooks,etc",
     "type": "library",
     "require": {
-      "php": ">=5.3.0"
-    },
-    "require": {
         "php": ">=5.3.0",
         "monolog/monolog": "^2.2"
     },
