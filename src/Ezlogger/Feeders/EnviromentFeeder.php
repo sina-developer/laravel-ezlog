@@ -1,6 +1,6 @@
 <?php
 
-namespace Stag\Ezlogger\Feeders;
+namespace Ezlogger\Feeders;
 
 use Illuminate\Support\Facades\Auth;
 

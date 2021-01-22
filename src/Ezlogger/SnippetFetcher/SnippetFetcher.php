@@ -1,6 +1,6 @@
 <?php 
 
-namespace Stag\Ezlogger\SnippetFetcher;
+namespace Ezlogger\SnippetFetcher;
 
 class SnippetFetcher{
     private static $line = 0;

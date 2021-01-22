@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ezlogger\\" : "src/"
+            "Ezlogger\\" : "src/Ezlogger/"
         }
     },
     "extra": {

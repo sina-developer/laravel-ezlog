@@ -1,6 +1,6 @@
 <?php 
 
-namespace Stag\Ezlogger\Sender;
+namespace Ezlogger\Sender;
 
 use GuzzleHttp\Client;
 

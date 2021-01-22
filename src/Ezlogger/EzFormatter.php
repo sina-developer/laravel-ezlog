@@ -1,9 +1,9 @@
 <?php
 
-namespace Stag\Ezlogger;
+namespace Ezlogger;
 
 use Monolog\Formatter\JsonFormatter;
-use Stag\Ezlogger\Sender\Sender;
+use Ezlogger\Sender\Sender;
 
 class EzFormatter extends JsonFormatter{
 

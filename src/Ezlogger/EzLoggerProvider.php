@@ -1,6 +1,6 @@
 <?php 
 
-namespace Stag\Ezlogger;
+namespace Ezlogger;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php 
 
-namespace Stag\Ezlogger\Feeders;
+namespace Ezlogger\Feeders;
 
 
 abstract class Feeder{

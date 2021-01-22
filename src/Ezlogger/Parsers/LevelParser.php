@@ -1,6 +1,6 @@
 <?php 
 
-namespace Stag\Ezlogger\Parsers;
+namespace Ezlogger\Parsers;
 
 
 class LevelParser extends Parser{

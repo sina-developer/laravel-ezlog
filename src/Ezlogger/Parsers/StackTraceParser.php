@@ -1,8 +1,8 @@
 <?php 
 
-namespace Stag\Ezlogger\Parsers;
+namespace Ezlogger\Parsers;
 
-use Stag\Ezlogger\SnippetFetcher\SnippetFetcher;
+use Ezlogger\SnippetFetcher\SnippetFetcher;
 
 class StackTraceParser extends Parser{
     protected $key = "context";
