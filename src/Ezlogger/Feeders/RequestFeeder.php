@@ -11,6 +11,7 @@ class RequestFeeder extends Feeder{
         } catch (\Throwable $th) {
             $session = null;
         }
+        $route = request()->route() ?? null;
         return [
             "request" => ["url" => request()->url() , "method" => request()->method()],
             "query" => request()->query(),
@@ -18,8 +19,8 @@ class RequestFeeder extends Feeder{
             "files" => request()->allFiles(),
             "header" => request()->header(),
             "session" => $session,
-            "route" => request()->route()->getAction() ?? null,
-            "methods" => request()->route()->methods() ?? null,
+            "route" => $route ? $route->getAction() : null,
+            "methods" => $route ? $route->methods() : null,
         ];
     }
 }
