@@ -18,8 +18,8 @@ class RequestFeeder extends Feeder{
             "files" => request()->allFiles(),
             "header" => request()->header(),
             "session" => $session,
-            "route" => request()->route()->getAction(),
-            "methods" => request()->route()->methods(),
+            "route" => request()->route()->getAction() ?? null,
+            "methods" => request()->route()->methods() ?? null,
         ];
     }
 }
