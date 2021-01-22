@@ -5,7 +5,7 @@ namespace Ezlogger;
 use Illuminate\Support\ServiceProvider;
 
 
-class EzLoggerProvider extends ServiceProvider{
+class EzloggerProvider extends ServiceProvider{
     public function boot(){
         // dd("damn boi!");
     }
