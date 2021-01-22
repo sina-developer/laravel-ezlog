@@ -11,6 +11,7 @@ class Ezlogger{
         }
     }
 
+    
     public static function Config(){
         return [
             'driver' => 'single',
