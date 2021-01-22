@@ -1,7 +1,6 @@
 <?php 
 
 namespace Ezlogger;
-use Monolog\Logger;
 
 class Ezlogger{
     public function __invoke($logger){
