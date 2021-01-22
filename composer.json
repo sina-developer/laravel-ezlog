@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Stag\\Ezlogger\\" : "src/"
+            "Ezlogger\\" : "src/"
         }
     },
     "extra": {
         "laravel" : {
             "providers" : [
-                "Stag\\Ezlogger\\EzLoggerProvider"
+                "Ezlogger\\EzLoggerProvider"
             ]
         }
     }
