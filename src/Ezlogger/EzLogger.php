@@ -3,7 +3,9 @@
 namespace Ezlogger;
 
 class Ezlogger{
-    public function __invoke($logger){
+    
+    public function __construct($logger)
+    {
         foreach ($logger->getHandlers() as $key => $handler) {
             $handler->setFormatter(new EzFormatter());   
         }
